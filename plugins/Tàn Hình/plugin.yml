@@ -1,0 +1,13 @@
+name: BlazinVanish
+author: PIG
+version: 1.0.3
+description: Tàn Hình
+api: [3.0.0, 4.0.0]
+main: iiFlamiinBlaze\BlazinVanish\BlazinVanish
+commands:
+ vanish:
+  permission: vanish.command
+  description: "Tàn Hình"
+permissions:
+ vanish.command:
+  default: op

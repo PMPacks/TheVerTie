@@ -1,0 +1,82 @@
+## Welcome to CustomQuery plugin configurations, where you can configure
+## the way you handle Queries.
+### Plugin Settings:
+config-version: 0.2
+## DO NOT CHANGE THE OPTION ABOVE. DOING SO WILL POSSIBLY BREAK THE PLUGIN. This is for internal use only.
+
+### Command settings:
+enable-commands: true
+### Enable/disable query commands in game.
+### If enabled, you can set your configurations using commands.
+### If set to false, then you'll need to use the config.yml file to set your options.
+
+permission: "customquery.settings"
+### A permission node option, where you can customize your permissions to whatever you want.
+
+allow-console: true
+## This option allows you to toggle on/off console detection.
+## If set to true, console detection will be turned off.
+## If set to false, console detection will be turned on.
+
+### Plugin / config options:
+show-plugins: false
+### This option allows you to toggle on/off showing plugins (By defaulted, and in which are real).
+## If this option is set to false, it will show up fake plugins (If fake-plugins option is set to true.)
+## If this option is set to true, then it'll show real plugins, and may possibly overwrite fake-plugins, or overwrite one and another.
+## It's best to keep one of the options "show-plugins" or "fake-plugins" to either true or false.
+## Make sure they're not the same option just in case it does overwrite.
+
+
+fake-plugins: true
+## If this option is set to true, you can customize what plugins are shown on the server list websites.
+
+set-fake-plugins: []
+## If fake-plugins option is set to true, customize which plugins should be shown / displayed.
+
+infinity-slots:
+## If this option is set to true, the max players slots will be 1 above the player count that is currently online. So it'd look like this: 0/1. If one person joined, it'll be 1/2, etc.
+
+enable-serverlist-motd: false
+## Allows you to enable/disable server list MOTD (From server list websites.)
+## Currently untested, and may/may not overwrite the default-servername options.
+
+motd-serverlist-message: "Welcome! Join!"
+## The MOTD from server list websites. (when posting your server)
+
+default-servername: false
+## If set to true, then it'll use the defaulted server name (given by pocketmine's standards or another plugin.)
+## If option set to false, then the server name system will use this plugin, and the option for it below.
+## WARNING - Due to v1.0.1+ ALPHA version, this functionality may not work.
+## If this functionality doesn't work, please report it at our github plugin page, and set default-servername to true.
+
+enable-player-motd: false
+## If set to true, then it'll use the new-player-motd and the old-player-motd messages (set below).
+## What this does, is it allows you to show those that haven't joined the server before's MOTD, and then the old player's MOTD (Those that have joined before.)
+## If set to false, player motd messages will be disabled.
+## Keep in mind - This functionality may not work. Use at your own risk!
+
+new-player-motd: "Most customizable Query plugin."
+## Set the server name for the Query to generate the server MOTD data.
+## Use & color code symbol for coloring your server name.
+## Variables:
+  # {online} = Shows how many players are online.
+  # {maxplayers} - Shows the maximum of players (slots).
+  # {newbie} - Displays the new player name.
+## This option allows you to show a new player MOTD message when someone has never joined the server before, and the MOTD should show such data.
+
+old-player-motd: "Hello, {player}!"
+## Set the server name for the Query to generate the server MOTD data.
+## Use & color code symbol for coloring your server name.
+## Variables:
+  # {online} = Shows the amount of players currently online.
+  # {maxplayers} = Shows the maximum of players the server can go up to. (it has its limits.)
+  # {player} = Displays the old player name.
+  ##This option allows you to show the old player name.
+
+fake-slots: true
+## Allows you to fake your player slots.
+
+min-slots: 233
+## From first player slot (which is minimum) and then the maximum of slots it can go up to via fake querying it.
+
+max-slots: 267

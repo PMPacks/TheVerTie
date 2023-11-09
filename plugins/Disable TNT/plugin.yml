@@ -1,0 +1,8 @@
+name: Disable_TNT
+author: 
+api: 3.0.0
+load: STARTUP
+main: DisableTNT\Main
+version: 0.1
+description: Làm Cho TNT Nổ Nhưng Không Phá Được Khối Gần Xung Quanh
+#Plugin Được Chỉnh Sửa Và Việt Hóa Bởi: PIG

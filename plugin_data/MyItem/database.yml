@@ -1,0 +1,256 @@
+---
+0:
+  name: "0"
+  id: 264
+  damage: 0
+  count: 64
+  display_name: §a§lLục Ngạn Kim Tiên
+  enchants:
+  - 1
+1:
+  name: "1"
+  id: 266
+  damage: 0
+  count: 64
+  display_name: §a§l• Phong Linh •
+  enchants:
+    17: 1
+2:
+  name: "2"
+  id: 399
+  damage: 0
+  count: 64
+  display_name: §a§l• Siêu Sao •
+  enchants:
+    17: 1
+gonguyenthuy:
+  name: gonguyenthuy
+  id: 280
+  damage: 0
+  count: 64
+  display_name: §6§l『§2Gỗ Nguyên Thủy§6』
+  enchants:
+    17: 1
+daco:
+  name: daco
+  id: 337
+  damage: 0
+  count: 64
+  display_name: §6§l『§aĐá Cổ§6』
+  enchants:
+    17: 1
+buisat:
+  name: buisat
+  id: 452
+  damage: 0
+  count: 64
+  display_name: §e§l『§6Bụi sắt§e』
+  enchants:
+    17: 1
+buivang:
+  name: buivang
+  id: 371
+  damage: 0
+  count: 64
+  display_name: §e§l『§6Bụi vàng§e』
+  enchants:
+    17: 1
+daquy:
+  name: daquy
+  id: 264
+  damage: 0
+  count: 64
+  display_name: §e§l『§6Đá quý§e』
+  enchants:
+    17: 1
+nuocmatquy:
+  name: nuocmatquy
+  id: 370
+  damage: 0
+  count: 64
+  display_name: §e§l『§cNước mắt quỷ§e』
+  enchants:
+    17: 1
+kemdianguc:
+  name: kemdianguc
+  id: 378
+  damage: 0
+  count: 64
+  display_name: §e§l『§5Kem địa ngục§6』
+  enchants:
+    17: 1
+saobang:
+  name: saobang
+  id: 399
+  damage: 0
+  count: 64
+  display_name: §4§l『§7Sao băng trắng§4』
+  lore:
+  - '§g§l⭄§4Nguyên liệu siêu quý hiếm§g⥺ '
+  - ' §aGợi ý:§e Nếu bạn có ý định bán... hãy ra giá cao!'
+  enchants:
+    17: 1
+huyhieuluu:
+  name: huyhieuluu
+  id: 377
+  damage: 0
+  count: 64
+  display_name: §g§l⤨§7〖Huy Hiệu〗§4 Hỏa Tộc§g⤪
+  lore:
+  - §6§l⤷§c§o Nguyên liệu trao đổi §4SET HỎA TỘC
+  enchants:
+    17: 1
+gaylua:
+  name: gaylua
+  id: 369
+  damage: 0
+  count: 64
+  display_name: §6§l⤨§cGậy lửa§6⤪
+  lore:
+  - §6§l⤷§cNguyên liệu trao đổi §4§oSET HỎA TỘC!
+  enchants:
+    17: 1
+muoi:
+  name: muoi
+  id: 353
+  damage: 0
+  count: 64
+  display_name: §6§l•§3Muối§6•
+  enchants:
+    17: 1
+dabien:
+  name: dabien
+  id: 422
+  damage: 0
+  count: 64
+  display_name: §6§l•§1Đá Biển§6•
+  enchants:
+    17: 1
+cupthiensu0:
+  name: cupthiensu0
+  id: 278
+  damage: 0
+  count: 1
+  display_name: §a§l• Cúp §eThiên Sứ §a•
+  enchants:
+    15: 4
+    17: 5
+    18: 1
+manhthiensu:
+  name: manhthiensu
+  id: 264
+  damage: 0
+  count: 64
+  display_name: §a§l• Mảnh Thiên Sứ •
+  enchants:
+    18: 1
+cupthiensu1:
+  name: cupthiensu1
+  id: 278
+  damage: 0
+  count: 1
+  display_name: |-
+    §a§l• Cúp §eThiên Sứ §a•
+    §d§l《§cSuper§d》
+  enchants:
+    15: 9
+    17: 8
+    18: 3
+    207: 2
+cupthiensu2:
+  name: cupthiensu2
+  id: 278
+  damage: 0
+  count: 1
+  display_name: |-
+    §a§l• Cúp §eThiên Sứ §a•
+    §d§l《§cThần Thoại§d》
+  enchants:
+    15: 12
+    17: 15
+    18: 7
+    207: 5
+aochoangbang:
+  name: aochoangbang
+  id: 311
+  damage: 0
+  count: 1
+  display_name: §a§l• Áo Choàng §bBăng Giá §a•
+  enchants:
+    0: 5
+    1: 5
+    2: 5
+    3: 5
+    4: 5
+    421: 1
+    422: 1
+    17: 1
+bangtanmaphap:
+  name: bangtanmaphap
+  id: 351
+  damage: 4
+  count: 64
+  display_name: §a§l• Băng Tàn Ma Pháp •
+  enchants:
+    17: 1
+manhgo:
+  name: manhgo
+  id: 752
+  damage: 0
+  count: 64
+  display_name: §a§l〘§6Mảnh Gỗ§a〙
+  lore:
+  - §e§l•§a Nguyên liệu đổi cúp Nông Dân
+  enchants:
+    17: 1
+quangco:
+  name: quangco
+  id: 742
+  damage: 0
+  count: 64
+  display_name: §e§l〘§6Quặng Cổ§e〙
+  lore:
+  - §e§l•§6 Nguyên liệu đổi cúp luyện kim
+  enchants:
+    17: 1
+nit:
+  name: nit
+  id: 287
+  damage: 0
+  count: 64
+  display_name: §e§l•§bNịt§e•
+  enchants:
+    17: 1
+bachkim:
+  name: bachkim
+  id: 265
+  damage: 0
+  count: 64
+  display_name: §a§l《§eBạch Kim§a》
+  enchants:
+    17: 1
+manhluanhoi:
+  name: manhluanhoi
+  id: 371
+  damage: 0
+  count: 64
+  display_name: §a§l• Mảnh Luân Hồi •
+  enchants:
+    17: 1
+gaykimtinh:
+  name: gaykimtinh
+  id: 369
+  damage: 0
+  count: 64
+  display_name: §a§l• Gậy Kim Tinh •
+  enchants:
+    17: 1
+longhuyenthiet:
+  name: longhuyenthiet
+  id: 288
+  damage: 0
+  count: 64
+  display_name: §a§l• §cLông Huyền Thiết §a• 1
+  enchants:
+    17: 1
+...

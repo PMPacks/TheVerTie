@@ -1,0 +1,10 @@
+---
+#exit và return
+exit-btn: "§l[§c✘§r§l] Thoát ra"
+return-btn: "§l[§c✘§r§l] Quay lại menu" 
+
+#infocategory
+howtoplay-info: "§a§lLệnh Cơ Bản Trong Server :\n§6/tinhnang : §eXem Menu Tổng Hợp\n§6/sbui : §eMở Giao Diện SkyBlock\n§6/ah : §eĐấu Giá\n§6/warp : §eKhu Vực\n§6/shopui: §eMở Giao Diện Cửa Hàng\n§6/shopcoin: §eMở Giao Diện Shop Coin\n§6/muadetu: §eMua Đệ Tử Miner\n§6/choden : §eChợ Đen\n§6/muarank : §eMua Rank VIP\n§6/clan : §eBang Hội\n§6/shopkey : §eMua Chìa Khoá Mở Rương\n§6/sell hand : §eBán Vật Phẩm Trên Tay\n§6/sell all: §eBán Hết Vật Phẩm Trong Người\n§6/muagen : §eMua Máy Tạo Quặng\n§6/generator : §eNâng Cấp Máy Tạo Quặng\n§6/luat : §eXem Luật Server\n§6/suachua : §eSửa Vật Phẩm\n§6/shopdonate : §eMua Đá Donate\n"
+aboutrules-info: "§a§l• Đào Quặng , Trồng Cây Thu Hoạch Rồi §e/sell hand §ahoặc §e/sell all §aĐể Bán\n§a§l• Chơi Minigame Tài Xỉu §e/tx §aĐể Thử Vận May\n§a§l• Vote Cho Server Mỗi Ngày Để Được Nhận Xu"
+aboutboss-info: "§6§lSau Khi /sbui Và Bấm Tìm Đảo Thì Góc Trái \n§6§lMàn Hình Sẽ Hiện Thông Báo Sử Dụng\n§6§l/sb claim Vậy Là Bạn Có Thể Có \n§6§lĐảo Cho Riêng Mình. Sau Khi Có Đảo Nếu \n§l§6Bạn Muốn Về Thì /sb home để về , Nếu Claim\n§6§lNhiều Đảo Hơn Thì Hãy /sb home <thứ tự> \n§6§llấy từ /sb homes. Sau Khi Sử Dụng Xong Nó \n§6§lSẽ Có Thứ Tự Và Toạ Độ Nếu Muốn Chơi Cùng \n§6§lBạn Bè Thì Bảo Họ /sb warp <toạ độ>\n§l§6đến nơi thì /sb addhelper để cho họ \n§6§lcó thể đập block xây dựng trên đảo của bạn. \n§6§lChúc Các Bạn Chơi Game Vui Vẻ"
+...

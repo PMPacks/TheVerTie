@@ -1,0 +1,11 @@
+name: AutoSellUI
+api: 3.8.2
+main: LetTIHL\Main
+version: 3.0.0
+author: LetTIHL
+commands:
+ autosell:
+   description: Tự động bán
+Permision:
+ autosell.command:
+  default: op

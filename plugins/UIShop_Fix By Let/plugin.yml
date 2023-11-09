@@ -1,0 +1,14 @@
+---
+name: UIShop
+main: UIShop\Main
+version: 3.5.4
+api: 3.0.0
+author: SaltyPixelDevz
+translate: Nguyễn Công Danh (NCD)
+depend: EconomyAPI
+
+commands:
+  shop:
+    aliases: [shopui]
+    description: Mở Giao Diện Shop!
+...

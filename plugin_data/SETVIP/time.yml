@@ -1,0 +1,14 @@
+---
+Vbee7477:
+  current-vip: 21-12-20,1,VIPII
+TurBoNoCoMA:
+  current-vip: 21-12-20,1,VIPVII
+  holding-vip:
+  - 18,VIPVII
+tur:
+  current-vip: 21-12-20,981,Admin
+  holding-vip:
+  - 1,OP
+cao:
+  current-vip: 21-12-20,13,Police
+...

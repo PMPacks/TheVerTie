@@ -1,0 +1,23 @@
+0:
+  button: "§a§l• Minigames : §6Tài Xỉu •", 1,"https://cdn-icons-png.flaticon.com/512/1055/1055804.png"
+  command: "tx"
+
+1:
+  button: "§a§l• Clan •", 1,"https://cdn-icons-png.flaticon.com/512/1601/1601097.png"
+  command: "clan"
+2:
+  button: "§a§l• Nạp Thẻ •", 1,"https://cdn-icons-png.flaticon.com/512/1086/1086741.png"
+  command: "napthe"
+3:
+  button: "§a§l• Đệ Tử •", 1,"https://cdn-icons.flaticon.com/png/512/280/premium/280950.png?token=exp=1636007194~hmac=6e492e3af30e8ece0f85728a00a5604d"
+  command: "napthe"
+4:
+  button: "§a§l• Mua VIP •", 1,"https://cdn-icons.flaticon.com/png/512/2521/premium/2521013.png?token=exp=1636007460~hmac=9630e373c0eacdb90f90ac3f65d9eb51"
+  command: "muarank"
+5:
+  button: "§a§l• Pet •", 1,"https://cdn-icons.flaticon.com/png/512/1049/premium/1049339.png?token=exp=1636007569~hmac=edc914133fdbca01ee29e1494ea824b3"
+  command: "thucung"
+6:
+  button: "§a§l• Sửa Chữa •", 1,"https://cdn-icons-png.flaticon.com/512/535/535522.png"
+  command: "suachua"
+  

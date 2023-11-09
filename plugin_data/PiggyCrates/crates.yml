@@ -1,0 +1,91 @@
+crates:
+  Common:
+    drops:
+      - id: 1
+        meta: 0
+        amount: 16
+        chance: 25
+      - id: 263
+        meta: 0
+        amount: 10
+        chance: 75
+    amount: 1
+    commands: ["say {PLAYER} has opened an Common Crate"]
+    floating-text: "Common Crate"
+  Uncommon:
+    drops:
+      - id: 263
+        meta: 0
+        amount: 10
+        chance: 75
+      - id: 50
+        meta: 0
+        amount: 16
+        chance: 15
+      - id: 366
+        meta: 0
+        amount: 16
+        chance: 10
+    amount: 1
+    commands: ["say {PLAYER} has opened an Uncommon Crate"]
+    floating-text: "Uncommon Crate"
+  Vote:
+    drops:
+      - id: 265
+        meta: 0
+        amount: 10
+        chance: 35
+      - id: 266
+        meta: 0
+        amount: 10
+        chance: 15
+      - id: 17
+        meta: 0
+        amount: 64
+        chance: 50
+    amount: 1
+    commands: ["say {PLAYER} has opened an Vote Crate"]
+    floating-text: "Vote Crate"
+  Mythic:
+    drops:
+      - id: 264
+        meta: 0
+        amount: 16
+        chance: 35
+      - id: 388
+        meta: 0
+        amount: 16
+        chance: 15
+      - id: 322
+        meta: 0
+        amount: 16
+        chance: 50
+    amount: 1
+    commands: ["say {PLAYER} has opened an Mythic Crate"]
+    floating-text: "Mythic Crate"
+  Legendary:
+    drops:
+      - id: 278
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "Telepathic Pickaxe"
+        lore: "Items mined are transported into your inventory"
+        enchantments:
+          - name: "telepathy"
+            level: 1
+      - id: 49
+        meta: 0
+        amount: 32
+        chance: 15
+      - id: 466
+        meta: 0
+        amount: 16
+        chance: 70
+      - id: 7
+        meta: 0
+        amount: 5
+        chance: 5
+    amount: 1
+    commands: ["say {PLAYER} has opened an Legendary Crate"]
+    floating-text: "Legendary Crate"

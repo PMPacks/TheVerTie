@@ -1,0 +1,19 @@
+0:
+  button: "§3§l• §eNạp Thẻ §3•"
+  command: "napthe"
+
+1:
+  button: "§3§l• §eCửa Hàng Pet §3•"
+  command: "thucung"
+2:
+  button: "§3§l• §eCửa Hàng Chìa Khoá §3•"
+  command: "shopkey"
+3:
+  button: "§3§p• §eCửa Hàng Rank §3•"
+  command: "muarank"
+4:
+  button: "§3§l• §eMinion §3•"
+  command: "muadetu"
+5:
+  button: "§3§l• §eMua CMD §3•"
+  command: "buycmd"

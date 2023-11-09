@@ -1,0 +1,9 @@
+name: Fly
+main: Fly\Main
+version: 1.0.0
+author: NhanAZ
+api: 3.0.0
+commands:
+ fly:
+    permission: fly.command
+    default: op

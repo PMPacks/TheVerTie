@@ -1,0 +1,9 @@
+name: SkyBlockUI
+version: 2.0 KSCore
+main: SkyBlockUI\Main
+api: [3.0.0]
+author: KaysilGMVN
+
+commands:
+  sbui:
+    description: "Mở Giao Diện SkyBlockUI"

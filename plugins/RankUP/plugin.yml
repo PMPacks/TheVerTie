@@ -1,0 +1,9 @@
+name: RankUP
+author: VbeeMC
+main: vbeemc\rankup\Main
+api: 3.0.0
+version: 1.0.0
+
+commands:
+ muarank:
+  description: §a§l• Mua rank •

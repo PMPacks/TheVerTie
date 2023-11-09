@@ -1,0 +1,11 @@
+name: JoinMenu
+version: 1.0
+main: jm\Main
+api: [3.0.0]
+author: PIG
+commands:
+  joinui:
+    description: ""
+    
+    
+    #Code By PIG

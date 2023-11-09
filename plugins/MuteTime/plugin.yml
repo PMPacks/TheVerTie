@@ -1,0 +1,8 @@
+name: MuteTime
+api: 3.0.0
+main: mute\Main
+version: 1.0.0
+author: LetTIHL
+commands:
+  mute:
+   description: mute player

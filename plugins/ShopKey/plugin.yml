@@ -1,0 +1,10 @@
+name: ShopKeyUI
+author: VbeeMC
+main: KeyShopUI\Main
+version: 1.0
+api: [3.0.0, 4.0.0]
+depend: ["FormAPI", "CoinAPI", "MysteryCrate"]
+commands:
+    shopkey:
+        default: true
+        description: §e• §dMua Key Quay Đồ §e• 

@@ -1,0 +1,29 @@
+---
+name: MysteryCrate
+main: JackMD\MysteryCrate\Main
+api:
+- 3.0.0
+version: 9.2.0
+author: JackMD
+authors:
+- DaPigGuy
+load: POSTWORLD
+description: Add unlimited number of MysteryCrates with full customization.
+website: https://github.com/JackMD/MysteryCrate
+permissions:
+  mc.crates.use:
+    default: true
+    description: Allows using the crates.
+  mc.command.key:
+    default: op
+    description: Allows use of /key command.
+  mc.command.keyall:
+    default: op
+    description: Allows using /keyall command.
+  mc.crates.create:
+    default: op
+    description: Allows using the crates.
+  mc.crates.destroy:
+    default: op
+    description: Allows using the crates.
+...

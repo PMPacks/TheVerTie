@@ -1,0 +1,9 @@
+---
+protect: lock
+pvp: false
+banitem:
+  325: Bucket
+bancmds:
+  /spider: /spider
+  /fly: /fly
+...

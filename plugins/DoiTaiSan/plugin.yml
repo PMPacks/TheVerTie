@@ -1,0 +1,9 @@
+name: DoiTaiSan
+main: doitaisan\Main
+author: pmmdst
+api: 3.0.0
+version: 1.0
+
+commands:
+ doitaisan:
+  description: "§a§l• Đổi Tài Sản"

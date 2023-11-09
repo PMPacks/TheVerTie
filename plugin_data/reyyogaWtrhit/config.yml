@@ -1,0 +1,22 @@
+acid-rain: true
+acid-water: true
+acid-rain-time(s): 500
+acid-rain-load(s): 1000
+
+effects:
+ - 19
+ - 17
+ 
+
+rain-worlds:
+ - "khulobby" 
+ - "khupvp"
+ - "khuboss"
+ - "khudabong"
+ - "khutrade"
+water-worlds:
+ - "khulobby"
+
+effect-duration: 5
+effect-amplifier: 1
+effect-visible: true

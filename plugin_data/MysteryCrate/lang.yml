@@ -1,0 +1,25 @@
+---
+# MysteryCrate Language File.
+#
+# Use "§" for adding colors.
+
+no_perm_use_crate: "§l§cBạn Không Có Quyền Để Sử Dụng §dCrate."
+no_perm_destroy: "§l§cBạn Không Có Quyền Để Đập §dCrate."
+no_perm_create: "§l§cBạn Không Có Quyền Để Tạo §dCrate."
+
+crate_destroy_successful: "§aCrate đã bị phá hủy . Restart Server Để Xoá Chữ"
+crate_place_successful: "§aCrate đã được tạo . Restart Server Để Xoá Chữ"
+
+no_key: "§c§lBạn Cần Phải Có §d%TYPE% §eKey Để Mở Crate."
+
+error_sneak: "§l§cBạn Không Thể Mở Crate Vì Bạn Đang Ngồi."
+error_crate_in_use: "§l§cCrate Đang Được Mở, Xin Chờ 1 Lát...."
+
+
+# The message that will be sent to the players when they win a reward from the crate.
+# Optional:
+# %REWARD% - The name of the reward given to the player.
+# %COUNT% - The amount of the reward the player would receive.
+# %CRATE% - The name of the crate from which player received the reward.
+win_message: "§l§cChúc Mừng, Bạn Đã Nhận Được §c%REWARD% §c(x%COUNT%) §6§lTừ §d%CRATE% §6Crate."
+...

@@ -1,0 +1,27 @@
+---
+- world: khulobby
+  x: -822
+  "y": 51
+  z: -775
+  name: daugia
+- world: khulobby
+  x: -837
+  "y": 54
+  z: -790
+  name: moruong
+- world: khupvp
+  x: 136
+  "y": 12
+  z: 314
+  name: pvp
+- world: khutrade
+  x: 0
+  "y": 64
+  z: 0
+  name: trade
+- world: khuboss
+  x: 257
+  "y": 66
+  z: 253
+  name: boss
+...

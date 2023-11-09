@@ -1,0 +1,14 @@
+---
+bancmds:
+  /sethome: /sethome
+  /home: /home
+  /delhome: /delhome
+  /gmc: /gmc
+  /gms: /gms
+  /tpaccept: /tpaccept
+banitem:
+  325: Bucket
+  383: Spawn Egg
+pvp: false
+protect: lock
+...

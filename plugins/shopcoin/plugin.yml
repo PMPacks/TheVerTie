@@ -1,0 +1,8 @@
+name: ShopCoinUI
+api: 3.0.0
+main: menu\Main
+version: 1.0.0
+author: LetTIHL
+commands:
+  shopcoin:
+   description: §a§l• Shop Coin •

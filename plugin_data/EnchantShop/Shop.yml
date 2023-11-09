@@ -1,0 +1,93 @@
+---
+version: "0.5"
+enchanting-table: true
+Title:  §l§bEnchantment §fShop§r 
+Button: |-
+  §3{NAME}
+  §6{PRICE}$
+slider-title: '§bLevel§5 '
+messages:
+  thanks: §l§2➜ §r§aCảm ơn bạn đã dùng Enchant Shop
+  label: §eBạn phải trả §f{PRICE}$ 1 level
+  not-enough-money: §l§4➜ §r§cBạn không đủ tiền
+  paid-success: §l§2➜ §r§aMua {NAME} level {LEVEL} với giá {PRICE}$ thành công
+  hold-item: §l§4➜ §r§cItem Bạn Cầm Không Thể Enchant
+  no-perm: §l§4➜ §r§cYou don't have permission to use this command
+  incompatible-enchantment: ""
+shop:
+- name: Unbreaking
+  enchantment: 17
+  price: 500
+  max-level: 7
+  incompatible-enchantments: []
+- name: Sharpness
+  enchantment: 9
+  price: 4000
+  max-level: 6
+  incompatible-enchantments: []
+- name: Fire Aspect
+  enchantment: 13
+  price: 3000
+  max-level: 2
+  incompatible-enchantments: []
+- name: Knockback
+  enchantment: 12
+  price: 1000
+  max-level: 6
+  incompatible-enchantments: []
+- name: Protection
+  enchantment: 1
+  price: 2000
+  max-level: 8
+  incompatible-enchantments: []
+- name: Fire Protection
+  enchantment: 1
+  price: 2000
+  max-level: 3
+  incompatible-enchantments: []
+- name: Blast Protection
+  enchantment: 4
+  price: 2000
+  max-level: 3
+  incompatible-enchantments: []
+- name: Efficiency
+  enchantment: 15
+  price: 4000
+  max-level: 10
+  incompatible-enchantments: []
+- name: 'Fortune '
+  enchantment: fortune
+  price: 5000
+  max-level: 3
+  incompatible-enchantments: []
+- name: Silk Touch
+  enchantment: 16
+  price: 6000
+  max-level: 2
+  incompatible-enchantments: []
+- name: Power
+  enchantment: 19
+  price: 4000
+  max-level: 6
+  incompatible-enchantments: []
+- name: Punch
+  enchantment: 20
+  price: 5000
+  max-level: 4
+  incompatible-enchantments: []
+- name: Flame
+  enchantment: 21
+  price: 3000
+  max-level: 3
+  incompatible-enchantments: []
+- name: Infinity
+  enchantment: 22
+  price: 20000
+  max-level: 1
+  incompatible-enchantments: []
+- name: Mending
+  enchantment: 28
+  price: 50000
+  max-level: 3
+  incompatible-enchantments: []
+...

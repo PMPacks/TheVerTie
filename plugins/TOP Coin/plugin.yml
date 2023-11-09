@@ -1,0 +1,11 @@
+name: TopCoinUI
+main: ac\top\Main
+version: 2.4
+api: 3.0.0
+author: [PIG]
+desc: https://www.youtube.com/channel/UCvxekC5VmBC33fl3TV4u9lA
+
+commands:
+    topcoin:
+     usage: /topcoin
+     description: Bảng Xếp Hạng Coin

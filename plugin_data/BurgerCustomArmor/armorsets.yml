@@ -1,0 +1,371 @@
+# You can add, remove and modify Custom Armor Sets here.
+# The symbol & can be used for color codes.
+# A few armor sets have already been created as an example.
+# The name of each Armor Set must be UNIQUE.
+
+# This is the name of the armor set.
+Miner:
+  tier: iron
+  glint: true
+  abilities:
+    Scale: 1
+    Effect:
+      - speed: 1
+      - haste: 1
+  strength:
+    helmet: 3
+    chestplate: 8
+    leggings: 6
+    boots: 3
+  durability:
+    helmet: 350
+    chestplate: 400
+    leggings: 400
+    boots: 400
+  name:
+    helmet: "&l&c★ Set Thợ Mỏ ★"
+    chestplate: "&l&c★ Áo Thợ Mỏ ★"
+    leggings: "&l&c★ Quần Thợ Mỏ ★"
+    boots: "&l&c★ Giày Thợ Mỏ ★"
+
+  lore:
+    helmet:
+      - "{FULLSETBONUS}"
+    chestplate:
+      - "{FULLSETBONUS}"
+    leggings:
+      - "{FULLSETBONUS}"
+    boots:
+      - "{FULLSETBONUS}"
+
+  # This is what replaces {FULLSETBONUS} in the lore of the armor piece
+  setbonuslore:
+    - "&a&lSET THỢ MỎ :§e§l Khi Đủ 4 Món Sẽ :"
+    - "&l&e+§a Hiệu hứng chạy nhanh &a(&eLV1&a)"
+    - "&l&e+§a Hiệu ứng đào nhanh &a(&eLV1&a)"
+
+  # These commands are run when the player wears the FULL armor set.
+  # The name of the player replaces {PLAYER}
+  equipped-commands: []
+
+  # These commands are run when the player removes any piece of the armor set
+  # while wearing a FULL armor set. The name of the player replaces {PLAYER}.
+  unequipped-commands: []
+
+Killer:
+  tier: iron
+  glint: true
+  abilities:
+    Scale: 1
+    Effect:
+      - speed: 1
+    SwordAmplification: 0.1
+  color:
+    r: 211
+    g: 33
+    b: 45
+  strength:
+    helmet: 3
+    chestplate: 8
+    leggings: 6
+    boots: 3
+
+  durability:
+    helmet: 364
+    chestplate: 529
+    leggings: 496
+    boots: 430
+  name:
+    helmet: "&l&c★ Nón Killer ★ "
+    chestplate: "&l&c★ Áo Killer ★"
+    leggings: "&l&c★ Quần Killer ★"
+    boots: "&l&c★ Giày Killer ★"
+
+  lore:
+    helmet:
+      - "{FULLSETBONUS}"
+    chestplate:
+      - "{FULLSETBONUS}"
+    leggings:
+      - "{FULLSETBONUS}"
+    boots:
+      - "{FULLSETBONUS}"
+
+  # This is what replaces {FULLSETBONUS} in the lore of the armor piece
+  setbonuslore:
+    - "&c&lSET KILLER:&e§l Khi Đủ 4 Món Sẽ:"
+    - "&l&e+&e Hiệu hứng chạy nhanh &b(&eLV1&b)"
+    - "&l&e+&e Cộng &e10%%%&f sát thương kiếm"
+
+  # These commands are run when the player wears the FULL armor set.
+  # The name of the player replaces {PLAYER}
+  equipped-commands: []
+
+  # These commands are run when the player removes any piece of the armor set
+  # while wearing a FULL armor set. The name of the player replaces {PLAYER}.
+  unequipped-commands: []
+
+SS1:
+  tier: iron
+  glint: true
+  abilities:
+    Scale: 1
+    Effect:
+      - speed: 1
+    DamageAmplification: 0.05
+    SwordAmplification: 0.1
+    AxeAmplification: 0.1
+    SwordNegation: 0.2
+  color:
+    r: 61
+    g: 140
+    b: 239
+  strength:
+    helmet: 3
+    chestplate: 8
+    leggings: 6
+    boots: 3
+
+  durability:
+    helmet: 364
+    chestplate: 529
+    leggings: 496
+    boots: 430
+  name:
+    helmet: "&l&6★ Mũ TVT ★ &b(&aMÙA &e1&b)"
+    chestplate: "&l&c★ Áo TVT ★ &b(&aMÙA &e1&b)"
+    leggings: "&l&c★ Quần TVT ★ &b(&aMÙA &e1&b)"
+    boots: "&l&c★ Giày TVT ★ &b(&aMÙA &e1&b)"
+
+  lore:
+    helmet:
+      - "{FULLSETBONUS}"
+    chestplate:
+      - "{FULLSETBONUS}"
+    leggings:
+      - "{FULLSETBONUS}"
+    boots:
+      - "{FULLSETBONUS}"
+
+  # This is what replaces {FULLSETBONUS} in the lore of the armor piece
+  setbonuslore:
+    - "&c&lSET &eTVT &b(&aMÙA &e1&b):&f Khi Đủ 4 Món Sẽ"
+    - "&l&e+&f Hiệu hứng chạy nhanh &b(&eLV1&b)"
+    - "&l&e+&f Cộng &e10%%%&f sát thương kiếm"
+    - "&l&e+&f Cộng &e10%%%&f sát thương rìu"
+    - "&l&e+&f Cộng &e5%%%&f sát thương tổng thể"
+    - "&l&e+&f Giảm &e5%%%&f sát thương từ kiếm"
+
+  # These commands are run when the player wears the FULL armor set.
+  # The name of the player replaces {PLAYER}
+  equipped-commands: []
+
+  # These commands are run when the player removes any piece of the armor set
+  # while wearing a FULL armor set. The name of the player replaces {PLAYER}.
+  unequipped-commands: []
+  
+Tank:
+
+  tier: leather
+
+  glint: true
+
+  abilities:
+
+    # The abilities used here are:
+    #   DamageNegation: Reduces the damage taken by the player when the full set is worn.
+    #   SwordNegation: Reduces the damage taken by the player when hit with a sword when full set is worn.
+    #   AxeNegation: Reduces the damage taken by the player when hit with an axe when full set is worn.
+    #   BowNegation: Reduces the damage taken by the player when hit with a bow when full set is worn.
+    #   KnockbackNegation: Reduces the players knockback as long as the full set is worn.
+
+    # Makes the player take 20% less knockback. If set to 1, normal knockback is taken.
+    KnockbackNegation: 0.8
+    # Makes player take 10% less damage overall. Set to 1 to take no damage. Set negative to for damage amplification.
+    DamageNegation: 0.1
+    # Makes player take 20% less damage from swords. Set to 1 to take no damage. Set negative to for damage amplification.
+    SwordNegation: 0.2
+    # Makes player take 15% less damage from axes. Set to 1 to take no damage. Set negative to for damage amplification.
+    AxeNegation: 0.15
+    # Makes player take 50% less damage from bows. Set to 1 to take no damage. Set negative to for damage amplification.
+    BowNegation: 0.5
+
+  color:
+    r: 255
+    g: 0
+    b: 255
+
+  strength:
+    helmet: 3
+    chestplate: 8
+    leggings: 6
+    boots: 3
+
+  durability:
+    helmet: 720
+    chestplate: 1040
+    leggings: 1000
+    boots: 860
+
+  name:
+    helmet: "&l&6Tank Helmet"
+    chestplate: "&l&6Tank Chestplate"
+    leggings: "&l&6Tank Leggings"
+    boots: "&l&6Tank Boots"
+
+  lore:
+    helmet:
+      - "&7Tank Helmet is an epic helmet"
+      - " "
+      - "{FULLSETBONUS}"
+    chestplate:
+      - "&7Tank Chestplate is an epic chestplate"
+      - " "
+      - "{FULLSETBONUS}"
+    leggings:
+      - "&7Tank Leggings are epic leggings"
+      - " "
+      - "{FULLSETBONUS}"
+    boots:
+      - "&7Tank Boots are epic boots"
+      - " "
+      - "{FULLSETBONUS}"
+
+  setbonuslore:
+    - "&1&lFULL SET BONUS: "
+    - "&r&b+20% Resistance to knockback"
+    - "&b+10% Damage negation from all causes"
+    - "&b+20% Damage negation against Swords"
+    - "&b+15% Damage negation against Axes"
+    - "&b+50% Damage negation against Bows"
+
+Assassin:
+  tier: leather
+  glint: true
+  abilities:
+    DamageAmplification: 0.1
+    SwordAmplification: 0.2
+    AxeAmplification: 0.15
+    BowAmplification: 0.5
+    Cape: FireCape.png
+  color:
+    r: 255
+    g: 255
+    b: 0
+
+  strength:
+    helmet: 2
+    chestplate: 6
+    leggings: 4
+    boots: 2
+
+  durability:
+    helmet: 200
+    chestplate: 400
+    leggings: 300
+    boots: 200
+
+  name:
+    helmet: "&l&cAssassin Helmet"
+    chestplate: "&l&cAssassin Chestplate"
+    leggings: "&l&cAssassin Leggings"
+    boots: "&l&cAssassin Boots"
+
+  lore:
+    helmet:
+      - "&7Assassin Helmet is an epic helmet"
+      - " "
+      - "{FULLSETBONUS}"
+    chestplate:
+      - "&7Assassin Chestplate is an epic chestplate"
+      - " "
+      - "{FULLSETBONUS}"
+    leggings:
+      - "&7Assassin Leggings are epic leggings"
+      - " "
+      - "{FULLSETBONUS}"
+    boots:
+      - "&7Assassin Boots are epic boots"
+      - " "
+      - "{FULLSETBONUS}"
+
+  setbonuslore:
+    - "&2&lFULL SET BONUS: "
+    - "&r&a+10% Damage dealt overall"
+    - "&a+20% Outgoing damage dealt using Swords"
+    - "&a+15% Outgoing damage dealt using Axes"
+    - "&a+50% Outgoing damage dealt using Bows"
+
+  equipped-messages:
+    - "hello {PLAYER}"
+    - "very epic {PLAYER}"
+
+  unequipped-messages:
+    - "goodbye {PLAYER}"
+    - "very epicn't {PLAYER}"
+
+
+SS2:
+  tier: leather
+  glint: true
+  abilities:
+    Scale: 1
+    Effect:
+      - speed: 1
+      - jump: 1
+      - haste: 1
+    DamageAmplification: 0.05
+    SwordAmplification: 0.1
+    AxeAmplification: 0.1
+    SwordNegation: 0.2
+    DamageNegation: 0.1
+  color:
+    r: 41
+    g: 141
+    b: 222
+  strength:
+    helmet: 3
+    chestplate: 8
+    leggings: 6
+    boots: 3
+
+  durability:
+    helmet: 370
+    chestplate: 535
+    leggings: 500
+    boots: 440
+  name:
+    helmet: "&l&6Nón &eLOCM &b(&aMÙA &e2&b)"
+    chestplate: "&l&cÁo &eLOCM &b(&aMÙA &e2&b)"
+    leggings: "&l&cQuần &eLOCM &b(&aMÙA &e2&b)"
+    boots: "&l&cGiày &eLOCM &b(&aMÙA &e2&b)"
+
+  lore:
+    helmet:
+      - "{FULLSETBONUS}"
+    chestplate:
+      - "{FULLSETBONUS}"
+    leggings:
+      - "{FULLSETBONUS}"
+    boots:
+      - "{FULLSETBONUS}"
+
+  # This is what replaces {FULLSETBONUS} in the lore of the armor piece
+  setbonuslore:
+    - "&c&lSET &eLOCM &b(&aMÙA &e2&b):&f đủ &e4&f món"
+    - "&l&e+&f Hiệu hứng chạy nhanh &b(&eLV1&b)"
+    - "&l&e+&f Hiệu hứng nhảy cao &b(&eLV1&b)"
+    - "&l&e+&f Hiệu hứng đào nhanh &b(&eLV1&b)"
+    - "----------------------"
+    - "&l&e+&f Cộng &e10%&f sát thương kiếm"
+    - "&l&e+&f Cộng &e10%&f sát thương rìu"
+    - "&l&e+&f Cộng &e5%&f sát thương tổng thể"
+    - "&l&e+&f Giảm &e5%&f sát thương tổng thể"
+
+  # These commands are run when the player wears the FULL armor set.
+  # The name of the player replaces {PLAYER}
+  equipped-commands: []
+
+  # These commands are run when the player removes any piece of the armor set
+  # while wearing a FULL armor set. The name of the player replaces {PLAYER}.
+  unequipped-commands: []

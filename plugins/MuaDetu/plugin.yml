@@ -1,0 +1,10 @@
+name: MuaDetu
+main: MuaDetu\Main
+version: 0.1
+author: PhanHoangKha
+api: 3.0.0
+description: "Mua Đệ :V"
+commands:
+  muadetu:
+   description: "Mua Đệ :V"
+   default: true

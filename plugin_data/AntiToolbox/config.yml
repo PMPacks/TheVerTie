@@ -1,0 +1,3 @@
+on-toolbox-cmds:
+  - 'kick "%player%"'
+  - 'say Thằng Óc %player% Đã Bị Ông Nội Nó Kick Vì Dùng ToolBox ! D:'

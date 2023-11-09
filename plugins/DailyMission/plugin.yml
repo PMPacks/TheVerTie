@@ -1,0 +1,8 @@
+name: DailyMission
+api: 3.0.0
+main: phuongaz\DailyMission\Mission
+author: phuongaz
+version: 0.1
+commands:
+  mission:
+    description: "Nhiệm vụ hằng ngày"

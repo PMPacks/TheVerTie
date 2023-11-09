@@ -1,0 +1,74 @@
+---
+version: 1.4.10-6
+default-factions-plugin: FactionsPro
+enable-multiworld-chat: false
+groups:
+  Member:
+    chat: §f§l〖{clan_name}§f〗 〖§bＭＥＭＢＥＲ§f〗 §f{display_name} §e☞ §f{msg}
+    nametag: §f§l〖§bＭＥＭＢＥＲ§f〗 {display_name}
+    worlds: []
+  Admin:
+    chat: §f§l〖{clan_name}§f〗 〖§eＡＤＭＩＮ§f〗 §c{display_name} §e☞ §a{msg}
+    nametag: §f§l〖§eＡＤＭＩＮ§f〗 §c{display_name}
+    worlds: []
+  Owner:
+    chat: §f§l〖{clan_name}§f〗 〖§eＯＷＮＥＲ§f〗 §c{display_name} §e☞ §a{msg}
+    nametag: §f§l〖§eＯＷＮＥＲ§f〗 §c{display_name}
+    worlds: []
+  OP:
+    chat: '&a[OP] &5{fac_rank}{fac_name}&b {prefix}{display_name}{suffix} &c>&6> &f{msg}'
+    nametag: '&a[OP] &c{fac_rank}{fac_name} &b{display_name}'
+    worlds: []
+  Helper:
+    chat: §f§l〖{clan_name}§f〗 〖§dＨＥＬＰＥＲ§f〗 §b{display_name} §e☞ §6{msg}
+    nametag: §f§l〖§dＨＥＬＰＥＲ§f〗 §b{display_name}
+    worlds: []
+  Police:
+    chat: §f§l〖{clan_name}§f〗 〖§dＰＯＬＩＣＥ§f〗 §b{display_name} §e☞ §6{msg}
+    nametag: §f§l〖§dＰＯＬＩＣＥ§f〗 §b{display_name}
+    worlds: []
+  Youtuber:
+    chat: §f§l〖{clan_name}§f〗 〖§aＹＯＵＴＵＢＥＲ§f〗 §6{display_name} §e☞ §c{msg}
+    nametag: §f§l〖§aＹＯＵＴＵＢＥＲ§f〗 §6{display_name}
+    worlds: []
+  Tiktoker:
+    chat: §f§l〖{clan_name}§f〗 〖§aＴＩＫＴＯＫＥＲ§f〗 §6{display_name} §e☞ §c{msg}
+    nametag: §f§l〖§aＴＩＫＴＯＫＥＲ§f〗 §6{display_name}
+    worlds: []
+  Trader:
+    chat: §f§l〖{clan_name}§f〗 〖§aＴＲＡＤＥＲ§f〗 §6{display_name} §e☞ §c{msg}
+    nametag: §f§l〖§aＴＲＡＤＥＲ§f〗 §6{display_name}
+    worlds: []
+  Builder:
+    chat: §f§l〖{clan_name}§f〗 〖§aＢＵＩＬＤＥＲ§f〗 §6{display_name} §e☞ §c{msg}
+    nametag: §f§l〖§aＢＵＩＬＤＥＲ§f〗 §6{display_name}
+    worlds: []
+  VIPI:
+    chat: §f§l〖{clan_name}§f〗 〖§eＶＩＰ Ｉ§f〗 §e{display_name} §e☞ §d{msg}
+    nametag: §f§l〖§eＶＩＰ Ｉ§f〗 §e{display_name}
+    worlds: []
+  VIPII:
+    chat: §f§l〖{clan_name}§f〗 〖§eＶＩＰ ＩＩ§f〗 §e{display_name} §e☞ §d{msg}
+    nametag: §f§l〖§eＶＩＰ ＩＩ§f〗 §e{display_name}
+    worlds: []
+  VIPIII:
+    chat: §f§l〖{clan_name}§f〗 〖§eＶＩＰ ＩＩＩ§f〗 §e{display_name} §e☞ §d{msg}
+    nametag: §f§l〖§eＶＩＰ ＩＩＩ§f〗 §e{display_name}
+    worlds: []
+  VIPIV:
+    chat: §f§l〖{clan_name}§f〗 〖§eＶＩＰ ＩＶ§f〗 §e{display_name} §e☞ §d{msg}
+    nametag: §f§l〖§eＶＩＰ ＩＶ§f〗 §e{display_name}
+    worlds: []
+  VIPV:
+    chat: §f§l〖{clan_name}§f〗 〖§eＶＩＰ Ｖ§f〗 §e{display_name} §e☞ §d{msg}
+    nametag: §f§l〖§eＶＩＰ Ｖ§f〗 §e{display_name}
+    worlds: []
+  VIPVI:
+    chat: §f§l〖{clan_name}§f〗 〖§eＶＩＰ ＶＩ§f〗 §e{display_name} §e☞ §d{msg}
+    nametag: §f§l〖§eＶＩＰ ＶＩ§f〗 §e{display_name}
+    worlds: []
+  VIPVII:
+    chat: §f§l〖{clan_name}§f〗 〖§eＶＩＰ ＶＩＩ§f〗 §e{display_name} §e☞ §d{msg}
+    nametag: §f§l〖§eＶＩＰ ＶＩＩ§f〗 §e{display_name}
+    worlds: []
+...

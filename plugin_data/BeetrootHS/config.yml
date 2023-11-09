@@ -1,0 +1,8 @@
+---
+"delay": 2700 #180 seconds = 3 minutes
+"levelname": "sb"
+
+##Farm
+"Beetroot": true
+
+...

@@ -1,0 +1,73 @@
+---
+# Available tags for broadcast messages, popups and titles:
+# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+# - {TOTALPLAYERS}: Show the number of all online players
+# - {PREFIX}: Show prefix
+# - {SUFFIX}: Show suffix
+# - {TIME}: Show current time
+# Available tags for /sendmessage, /sendpopup and /sendtitle format:
+# - {MESSAGE}: Show message
+# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+# - {TOTALPLAYERS}: Show the number of all online players
+# - {PREFIX}: Show prefix
+# - {PLAYER}: Message receiver
+# - {SENDER}: Show sender name
+# - {SUFFIX}: Show suffix
+# - {TIME}: Show current time
+# Extra tag for titles:
+# - {SUBTITLE}: Add subtitle (the text after this tag will be the content of the subtitle) 
+# Prefix
+prefix: ""
+# Suffix
+suffix: ""
+# Date\Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php
+datetime-format: "H:i:s"
+# Message broadcast
+message-broadcast:
+ # Enable message broadcast
+ enabled: true
+ # Broadcast interval (in seconds)
+ time: 300
+ # Command /sendmessage format
+ command-format: "&e[{TIME}] {PREFIX} {SUFFIX} &a{SENDER}&e>&f {MESSAGE}"
+ # Broadcast messages
+ messages:
+  - "§c§l✉§e Hãy là con người có học không nên §aHack Cheat §e, nếu làm sẽ bị ban vĩnh viễn"
+  - "&c§l✉§e Bạn đang quá mạnh ? Bạn tự tin với trình độ bạn đang có ? Hãy §a/warp pvp §ethử tài nào"
+  - "&c§l✉§e Nếu cảm thấy nhớ lệnh khó thì hãy sử dụng §a/tinhnang §eđể xem tính năng server"
+  - "§c§l✉§e Donate ủng hộ máy /napthe"
+  - "§c§l✉§e Các khu vực có trong server : §aboss/dabong/daugia/trade/moruong/pvp §edùng §a/warp <khu> §eđể đến nha"
+  - "§c§l✉§e Vote cho máy chủ tại link : §abit.do/thevertie"
+  - "§c§l✉§e Tham gia§a Group §emáy chủ tại : §abit.do/grouptvt"
+  - "§c§l✉§e Trao đổi mua bán hàng hoá tại §aMenu Đấu Giá §ehãy dùng §a/ah"
+  - "§c§l✉§e Quay Rương Đồ Sẽ Drop Đồ Cực Xịn . Hãy §a/shopkey §eđể mua key"
+  - "§c§l✉§e Minigame §a/tx §eđể chơi tài xỉu"
+  - "§c§l✉§e Hãy tạo một bang hội cho riêng mình. Chiến đấu cùng anh em !"
+# Popup broadcast
+popup-broadcast:
+ # Enable popup broadcast
+ enabled: false
+ # Popup broadcast interval (in seconds)
+ time: 15
+ # Popup duration (in seconds)
+ duration: 5
+ # Command /sendpopup format
+ command-format: "&a{SENDER}&e>>&f {MESSAGE}"
+ # Popup broadcast messages
+ messages:
+  - "&aWelcome to your server"
+  - "&d{TOTALPLAYERS} &eof &d{MAXPLAYERS} &eonline"
+  - "&bCurrent Time: &a{TIME}"
+# Title broadcast
+title-broadcast:
+ # Enable title broadcast
+ enabled: false
+ # Title broadcast interval
+ time: 30
+ # Command /sendtitle format
+ command-format: "&d{MESSAGE}"
+ # Title broadcast messages
+ messages:
+  - "&aWelcome to your server!{SUBTITLE}&bGood game!"
+  - "&eHello player!"
+...

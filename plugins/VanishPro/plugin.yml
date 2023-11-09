@@ -1,0 +1,11 @@
+name: VanishPro
+main: VanishPro\Main
+version: 1.0.0
+api: [3.0.0]
+author: PerhapsPlatypus
+description: This is a simple plugin which allows the user to vanish completely!
+commands:
+  vanishpro:
+    description: "Ẩn thân người chơi"
+  unvanishpro:
+    description: "Tắt ẩn thân người chơi"

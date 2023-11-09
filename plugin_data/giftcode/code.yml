@@ -1,0 +1,17 @@
+---
+happynewyear:
+  money: "22000"
+  coin: "22"
+  count: 1
+  cm: say §6§lChúc mừng năm mới
+nguoimoi:
+  money: "2000"
+  coin: "0"
+  count: 0
+  cm: givemoney Jay10122 0.1
+bitroll:
+  money: "2000"
+  coin: "2"
+  count: 1
+  cm: kill
+...

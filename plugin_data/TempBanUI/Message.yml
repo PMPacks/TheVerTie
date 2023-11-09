@@ -1,0 +1,23 @@
+---
+BroadcastBanMessage: '§e{player} §c đã bị ban bởi Admin §e{staff} §cThời gian hết
+  hạn : §b{day} ngày, {hour} giờ, {minute} phút . §cLí do: §e{reason}'
+KickBanMessage: "§c Bạn đã bị ban bởi Admin §e{staff} §c Thời gian hết hạn §b{day}
+  §b ngày, §b{hour} §b giờ, §b{minute} §a phút. \n§c Lí do: §e{reason}"
+LoginBanMessage: "§c Bạn đã bị ban . Thời gian hết hạn §b{day} §b Ngày, §b{hour} §b
+  Giờ, §b{minute} §b Phút, §b{second} §b Giây. \n§c Lí do: §e{reason} \n§c Ban bởi
+  Admin: §e{staff}"
+BanMyself: §c Bạn không thể tự ban chính mình!
+BanModeOn: §aBan mode on
+BanModeOff: §cBan mode off
+NoBanPlayers: §eKhông có player bị ban
+UnBanPlayer: §e{player} §a đã được unban
+AutoUnBanPlayer: §e{player} §a đã được unban tự động . Thời gian ban đã hết
+BanListTitle: §9§l« §r§1 Danh Sách Người Bị Ban §9§l»§r
+BanListContent: '§r '
+PlayerListTitle: §6§l« §r§e Danh Sách Người Chơi §6§l»
+PlayerListContent: '§r '
+InfoUIContent: "§3§lInformations:§r \n§b Ngày : {day} \n§b Giờ : §b{hour} \n§b Phút:
+  §b{minute} \n§b Giây: §b{second} \n§c Lí do : §e{reason} \n§cBanned bởi Admin :
+  §e{staff}\n\n\n\n\n"
+InfoUIUnBanButton: §aUnban Player
+...

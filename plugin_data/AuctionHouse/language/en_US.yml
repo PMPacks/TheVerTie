@@ -1,0 +1,218 @@
+---
+# DO NOT EDIT THIS VALUE, INTERNAL USE ONLY. #
+lang-version: 3
+
+# Refer to https://minecraft.gamepedia.com/Formatting_codes for formatting codes, you can replace the '§' symbol with a '&'
+
+# AH Menu titles
+menu-name: "&l&0MENU ĐẤU GIÁ TẠI SERVER"
+listings-menu-name: "&2DANH SÁCH HOẠT ĐỘNG"
+expired-menu-name: "&cHỦY BỎ / HẾT HẠN"
+purchase-menu-name: "§cXÁC NHẬN MUA HÀNG"
+admin-menu-name: "&l&cAdmin Menu"
+category-menu-name: "&l&6THỂ LOẠI"
+manage-listing-name: "&l&eQUẢN LÍ"
+player-listing: "&bDANH SÁCH CỦA {player}"
+
+# Chat messages
+item-listed: "&2BẠN ĐÃ LIỆT KÊ &d@item &r&d(x@amount) &2VỚI GIÁ &d@price. SỬ DỤNG &e/ah listings &dĐỂ XEM TOÀN BỘ ITEMS"
+cancelled-item: "&eBẠN ĐÃ HỦY BỎ ĐẤU GIÁ. QUAY TRỞ LẠI HỦY BỎ VÀ ITEM HẾT HẠN TẠI &6/ah expired&e."
+cancelled-purchase: "&cXÁC NHẬN HỦY BỎ"
+purchased-item: "&2BẠN ĐÃ MUA &d@item &r&d(x@amount) &2VỚI GIÁ &d@price"               #@player, @item, @price, @amount
+seller-message: "&e@player &bXÁC NHẬN @item (x@amount) TỪ BẠN VỚI GIÁ &d@price!"         #@player, @item, @price, @amount
+returned-item: "&2BẠN ĐÃ XOÁ &d@item &r&d(x@amount) &2TỪ MENU ĐẤU GIÁ."                     #@item, @amount
+
+# Error messages
+in-creative: "&cBẠN KHÔNG THỂ BÁN KHI Ở CHẾ ĐỘ SÁNG TẠO."
+max-listings: "&cBẠN KHÔNG THỂ CÓ NHIỀU HƠN @max DANH SÁCH ĐANG HOẠT ĐỘNG."                                                  #@max
+invalid-price: "&cGIÁ KHÔNG HỢP LỆ."
+not-enough-space: "&cBẠN KHÔNG CÓ ĐỦ MONEY TRONG NGƯỜI ĐỂ MUA ITEMS"
+self-purchase: "&cBẠN KHÔNG THỂ MUA ITEMS CỦA CHÍNH BẠN TRÊN MENU ĐẤU GIÁ"
+no-item: "&cVUI LÒNG CẦM ITEMS CỦA BẠN TRÊN TAY!"
+cannot-afford: "&cBẠN KHÔNG ĐỦ TIỀN ĐỂ MUA ITEMS."
+item-blacklisted: "&cITEMS NÀY KHÔNG THỂ TREO LÊN MENU ĐẤU GIÁ!"
+invalid-balance: "&cBẠN KHÔNG CÓ ĐỦ TIỀN ĐỂ NIÊM YẾT MỘT CUỘC ĐẤU GIÁ."
+listing-gone: "&cDANH SÁCH KHÔNG TỒN TẠI."
+price-range: "&cPHẠM VI GIÁ TIỀN KHÔNG HỢP LỆ"                                                                         #@min, @max
+in-cooldown: "&cCHẬM LẠI , HÃY CHỜ &b@M PHÚT(s) &cVÀ &b@S GIÂY(s)&c."               #@M, @S
+player-not-found: "&cNGƯỜI CHƠI NÀY KHÔNG CÓ DANH SÁCH HOẠT ĐỘNG."
+player-listings-usage: "&cXEM DANH SÁCH CỦA BẠN /ah listings"
+inventory-full: "&cTÚI ĐỒ ĐÃ FULL XOÁ BỚT ĐỂ MUA ĐỒ."
+
+# Items in the menu UI
+listed-item:
+    # %price% = Price of listing
+    # %seller% = Username of seller
+    # {H} = Hours | {M} = Minutes
+    - "&7-------------------------"
+    - "&aCHẠM ĐỂ XÁC NHẬN."
+    - ""
+    - "&9GIÁ: &e%price%"
+    - "&9NGƯỜI BÁN : &e%seller%"
+    - "&9HẾT HẠN: &e{D} NGÀY {H} GIỜ {M} PHÚT"
+    - "&7-------------------------"
+your-listed-item:
+    # %price% = Price of listing
+    # {H} = Hours | {M} = Minutes
+    - "&7-------------------------"
+    - "&cCHẠM VÀO ĐÂY ĐỂ XOÁ."
+    - ""
+    - "&9GIÁ: &e%price%"
+    - "&9HẾT HẠN: &e{D} NGÀY {H} GIỜ {M} PHÚT"
+    - "&7-------------------------"
+expired-item:
+    # %price% = Price of listing
+    - "&7-------------------------"
+    - "&aCHẠM ĐỂ NHẬN ITEMS."
+    - ""
+    - ""
+    - "&9GIÁ: &e%price%"
+    - "&7-------------------------"
+view-listed-items:
+    # %selling% = Number of active listings
+    name: "&6ITEMS BẠN ĐANG BÁN"
+    lore:
+        - "&aCHẠM ĐỂ XEM TOÀN BỘ"
+        - "&aITEMS BÁN TRÊN MENU."
+        - ""
+        - "&9ĐANG BÁN: &e%selling%"
+view-expired-items:
+    # %expired% = Number of expired listings
+    name: "&6THU THẬP HẾT HẠN / HỦY BỎ ITEMS"
+    lore:
+      - "&r&aCHẠM ĐỂ XEM TOÀN BỘ VÀ THU NHẬP"
+      - "&aITEMS BẠN ĐÃ HỦY BỎ HOẶC HẾT HẠN."
+      - ""
+      - "&9ITEMS THU THẬP : &e%expired%"
+
+# Admin Menu
+view-admin-menu:
+    name: "&e&k----- &r&l&c Admin Menu &r&e&k-----"
+    lore:
+        - "&r&aCHẠM ĐỂ XEM ADMIN MENU."
+        #- "&aYou can remove specific items here."
+main-stats-admin:
+    # %page% = Current page
+    # %max% = Max page
+    # %expired% = Expired listing count
+    # %total% = Total listing count
+    name: "&l&cAdmin Menu"
+    lore:
+        - "&aTRANG %page%/%max%"
+        - "&7TỔNG &b%total% &7ITEMS"
+        - "&c(&b%expired% &cHẾT HẠN ITEMS)"
+        - "RELOAD TRANG"
+listed-item-admin:
+    # %price% = Price of listing
+    # %seller% = Username of seller
+    # %status% = Status of the listing (Active/Expired)
+    - "&7-------------------------"
+    - "&6EDIT DANH SÁCH."
+    - ""
+    - "&9GIÁ: &e%price%"
+    - "&9NGƯỜI BÁN: &e%seller%"
+    - "&9TRẠNG THÁI: %status%"
+    - "&7-------------------------"
+
+status-active: "&aHOẠT ĐỘNG"
+status-expired: "&cHẾT HẠN"
+selected-listing-name: "&l&cQUẢN LÍ TRANG"
+
+duplicate-item: "&aBẢN SAO ITEMS VÀO TÚI ĐỒ"
+listing-expired: "&eTẠO DANH SÁCH HẾT HẠN"
+listing-active: "§eTẠO DANH SÁCH &aHOẠT ĐỘNG"
+delete-item: "&cXOÁ ITEMS VÀ DANH SÁCH"
+
+# Pagination items
+previous-page:
+    name: "&a<- TRANG TRƯỚC"
+    lore:
+        - "<======="
+next-page:
+    name: "&aTRANG TIẾP THEO ->"
+    lore:
+        - "&7========>"
+back-button:
+    name: "&6QUAY LẠI"
+    lore:
+
+sell-description:
+    name: "&6LÀM THẾ NÀO ĐỂ BÁN ITEMS ?"
+    lore:
+        - "&aĐỂ LIỆT KÊ MỘT MẶT HÀNG TRÊN NHÀ ĐẤU GIÁ, CHỈ CẦN GIỮ"
+        - "&aITEM TRÊN TAY VÀ /ah sell <price>&a."
+main-description:
+    name: "&6TRANG NÀY LÀ GÌ ?"
+    lore:
+        - "&aĐÂY LÀ NHÀ ĐẤU GIÁ , BẠN CÓ THỂ"
+        - "&a"
+        - "&aTREO VẬT PHẨM TRAO ĐỔI MUA BÁN Ở ĐÂY VỚI GIÁ TỐT."
+        - ""
+main-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    name: "&l&6ĐẤU GIÁ"
+    lore:
+        - "&aTRANG %page%/%max%"
+        - "&7TỔNG &b%total% &7ITEMS"
+        - "CHẠM ĐỂ RELOAD PAGE"
+listings-description:
+    name: "&6PAGE NÀY LÀ GÌ?"
+    lore:
+        - "&aXEM ITEMS ĐÃ HẾT HẠN"
+        - ""
+listings-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    name: "&l&6DANH SÁCH"
+    lore:
+        - "&aTRANG %page%/%max%"
+        - "&7TỔNG &b%total% &7ITEMS"
+expired-description:
+    name: "&6TRANG NÀY LÀ GÌ ?"
+    lore:
+        - "&aCHỨA NHỮNG ITEMS ĐÃ HỦY HOẶC HẾT HẠN"
+ 
+expired-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Number of categories
+    name: "&l&6HẾT HẠN"
+    lore:
+        - "&aTRANG %page%/%max%"
+        - "&7TỔNG &b%total% &7items"
+        - "&3Click here to return all items"
+
+# Category menu
+category-stats:
+    # %category% = Category
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    name: "%category%"
+    lore:
+        - "&aTRANG %page%/%max%"
+        - "&7TỔNG &b%total% &7DANH SÁCH"
+category-list-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    name: "&l&6THỂ LOẠI"
+    lore:
+        - "&aTRANG %page%/%max%"
+        - "&7TỔNG &b%total% &7THỂ LOẠI"
+
+# Confirm purchase menu
+purchase-confirm:
+    name: "&aXÁC NHẬN"
+purchase-cancel:
+    name: "&cKHÔNG XÁC NHẬN"
+purchase-item:
+    lore:
+        - "&7-------------------------"
+        - "&9Price: &e%price%"
+        - "&9Seller: &e%seller%"
+        - "&7-------------------------"
+...

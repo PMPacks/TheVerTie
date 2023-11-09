@@ -1,0 +1,259 @@
+---
+Admin:
+  alias: adm
+  inheritance:
+  - Member
+  permissions:
+  - essentials.gamemode
+  - feed.command
+  - fly.command
+  - heal.command
+  - invsee.enderinventory.modify.self
+  - invsee.enderinventory.modify.view
+  - invsee.inventory
+  - invsee.inventory.modify
+  - invsee.inventory.modify.self
+  - invsee.inventory.view
+  - nick.command
+  - pocketmine.broadcast
+  - pocketmine.command.give
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pocketmine.command.tp
+  - size.command
+  - spider.command
+  - vanish.command
+  worlds:
+    bug:
+      permissions: []
+Owner:
+  alias: owr
+  inheritance:
+  - Admin
+  permissions:
+  - essentials
+  - pocketmine.command
+  - pperms.command
+  worlds:
+    bug:
+      permissions: []
+OP:
+  alias: op
+  inheritance: []
+  permissions:
+  - '*'
+  worlds:
+    bug:
+      permissions: []
+Member:
+  alias: mbr
+  inheritance: []
+  permissions:
+  - essentials.kit
+  - essentials.kit.other
+  - kit.member
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pocketmine.command.me
+  - pperms.command.ppinfo
+  worlds: []
+  isDefault: true
+VIPI:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - essentials.kit
+  - essentials.kit.other
+  - fly.command
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - playervaults.vault.1
+  - pocketmine.command.list
+  - pocketmine.command.me
+  - pperms.command.ppinfo
+  worlds: []
+VIPII:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - essentials.kit
+  - essentials.kit.other
+  - fly.command
+  - heal.command
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - playervaults.vault.2
+  - pocketmine.command.list
+  - pocketmine.command.me
+  - pperms.command.ppinfo
+  worlds: []
+VIPIII:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - essentials.kit
+  - essentials.kit.other
+  - feed.command
+  - fly.command
+  - heal.command
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - playervaults.vault.3
+  - pocketmine.command.list
+  - pocketmine.command.me
+  - pperms.command.ppinfo
+  worlds: []
+VIPIV:
+  alias: ""
+  inheritance: []
+  isDefault: false
+  permissions:
+  - autosell.command
+  - essentials.kit
+  - essentials.kit.other
+  - feed.command
+  - fly.command
+  - heal.command
+  - kitvip4.kit
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - playervaults.vault.4
+  - pocketmine.command.list
+  - pocketmine.command.me
+  - pperms.command.ppinfo
+  worlds: []
+VIPV:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - autosell.command
+  - essentials.kit
+  - essentials.kit.other
+  - feed.command
+  - fly.command
+  - heal.command
+  - kitvip5.kit
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - playervaults.vault.5
+  - pocketmine.command.list
+  - pocketmine.command.me
+  - pperms.command.ppinfo
+  - spider.command
+  worlds: []
+VIPVI:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - autosell.command
+  - essentials.kit
+  - essentials.kit.other
+  - feed.command
+  - fly.command
+  - heal.command
+  - kitvip6.kit
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - playervaults.vault.5
+  - pocketmine.command.list
+  - pocketmine.command.me
+  - pperms.command.ppinfo
+  - spider.command
+  worlds: []
+VIPVII:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - autosell.command
+  - essentials.kit
+  - essentials.kit.other
+  - feed.command
+  - fly.command
+  - heal.command
+  - kitvip7.kit
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - playervaults.vault.5
+  - pocketmine.command.list
+  - pocketmine.command.me
+  - pocketmine.command.teleport
+  - pperms.command.ppinfo
+  - spider.command
+  worlds: []
+Police:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Member
+  permissions:
+  - fly.command
+  - mute.staff
+  - pocketmine.command.ban
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - vanish.command
+  worlds: []
+Helper:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Member
+  permissions:
+  - fly.command
+  - mute.staff
+  - pocketmine.command.teleport
+  - vanish.command
+  worlds: []
+Youtuber:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - feed.command
+  - fly.command
+  - heal.command
+  - pocketmine.command.teleport
+  - pocketmine.command.tp
+  worlds: []
+Tiktoker:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - feed.command
+  - fly.command
+  - heal.command
+  - pocketmine.command.teleport
+  - pocketmine.command.tp
+  worlds: []
+Trader:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - feed.command
+  - fly.command
+  - heal.command
+  - pocketmine.command.teleport
+  - pocketmine.command.tp
+  worlds: []
+Builder:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - feed.command
+  - fly.command
+  - heal.command
+  - pocketmine.command.teleport
+  - pocketmine.command.tp
+  worlds: []
+...

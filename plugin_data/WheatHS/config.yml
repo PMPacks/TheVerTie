@@ -1,0 +1,8 @@
+---
+"delay": 20 #180 seconds = 3 minutes
+"levelname": "world"
+
+##Farm
+"Wheat": true
+
+...

@@ -1,0 +1,52 @@
+---
+- name: Quỷ Dạ Xoa
+  skin: centaur
+  maxhealth: 7000
+  damage: 8
+  speed: 3
+  posX: 221.1631
+  posY: 66
+  posZ: 207.0541
+  level: khuboss
+  drops:
+  - "1:0:1"
+  - 4:0:64
+  scale: 1
+  commands:
+  - boss cooldown 0 100
+  - givecoin {player} 1
+  custom-item:
+    1:
+      id: "278:0:1"
+      chance: 50
+      name: §l§aSuper Pickaxe
+      lore: §l§aRARITY:§e **
+      enchantment:
+      - "17:5"
+      - "15:8"
+- name: §a§l• Minion •
+  skin: Minion
+  maxhealth: 7000
+  damage: 8
+  speed: 3
+  posX: 221.8943
+  posY: 65
+  posZ: 240.0495
+  level: khuboss
+  drops:
+  - "1:0:1"
+  - 4:0:64
+  scale: 1
+  commands:
+  - boss cooldown 1 100
+  - givecoin {player} 1
+  custom-item:
+    1:
+      id: "278:0:1"
+      chance: 50
+      name: §l§aSuper Pickaxe
+      lore: §l§aRARITY:§e **
+      enchantment:
+      - "17:5"
+      - "15:8"
+...

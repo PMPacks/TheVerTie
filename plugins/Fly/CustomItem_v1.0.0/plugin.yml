@@ -1,0 +1,19 @@
+name: CustomItem
+main: CustomItem\Main
+version: 1.0.0
+api: [3.0.0]
+author: Phuongaz
+
+commands:
+ setitemname:
+  description: "Đặt Name Của Item"
+  permission: setname.command.item
+ setitemlore:
+  description: "Đặt Lore Của Item"
+  permission: setlore.command.item
+
+permissions:
+  setname.command.item:
+    default: op
+  setlore.command.item:
+    default: op

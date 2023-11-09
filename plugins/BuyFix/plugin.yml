@@ -1,0 +1,9 @@
+name: BuyFix
+main: BuyFix\Main
+author: [Twisted, NhanAZ]
+version: 1.0
+api: [3.0.0, 3.7.1, 3.8.1, 3.9.3, 4.0.0]
+commands:
+ fix:
+  description: Sửa Vật Phẩm Hiếm Không Sửa Đồ Tự Chế
+  aliases: ["buyfix", "repair", "suachua"]

@@ -1,0 +1,9 @@
+name: EnchantList
+api: 3.0.0
+author: Beeaz
+main: enchant\Main
+version: 0.0.1
+
+commands:
+ danhsachenchant:
+  description: "Xem Công Dụng Enchant Có Trong Server"

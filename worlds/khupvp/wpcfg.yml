@@ -1,0 +1,24 @@
+---
+bancmds:
+  /fly: /fly
+  /sethome: /sethome
+  /home: /home
+  /delhome: /delhome
+  /gmc: /gmc
+  /gms: /gms
+  /tpaccept: /tpaccept
+  /tp: /tp
+banitem:
+  325: Bucket
+  383: Spawn Egg
+  290: Wooden Hoe
+  269: Wooden Shovel
+  277: Diamond Shovel
+  273: Stone Shovel
+  256: Iron Shovel
+  284: Gold Shovel
+  291: Stone Hoe
+  292: Iron Hoe
+  294: Golden Hoe
+protect: lock
+...

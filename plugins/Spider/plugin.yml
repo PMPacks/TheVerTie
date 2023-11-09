@@ -1,0 +1,15 @@
+name: SpiderUI
+main: SpiderUI\Main
+version: 1.0.0
+api: [3.0.0, 4.0.0]
+author: MCCreeperYT #Editor: PIG
+
+commands:
+ spider:
+     description: Leo Tường
+     permission: spider.command
+
+permissions:
+ spider.command:
+     description: "Permission Spider"
+     default: op

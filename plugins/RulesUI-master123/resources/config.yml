@@ -1,0 +1,20 @@
+---
+ 
+# If you want to add a paragraph then you only have to do 
+# \n at the text then the text one goes down for example: Test\nTest = Test 
+#                                                                     Test 
+# So if you do this twice (\n\n), there's an empty line between the example Test
+ 
+# Here you can switch the Description
+Title: "§l§e•§b Luật §e•"
+ 
+# Here you can switch the content
+Content: "§a§lRất Hân Hạnh Vì Các Bạn Đã Ấn Vào Đây\n§a§lMáy Chủ Nào Cũng Sẽ Có Luật Của Máy Chủ Đó\n§a§lThevertie Chỉ Yêu Cầu 1 Số Vấn Đề Sau\n§d§l• §eKhông Hack Cheat\n§d§l• §eKhông Chửi Tục\n§d§l• §eViệc Bán Đồ Giữa Mem Sẻ Không Được Admin Giải Quyết"
+ 
+# Here you can switch the text for the Button
+Button: "§d♦ §aĐã hiểu§d ♦"
+ 
+# Here you can add if the Player joins that then you have to set it to true
+open_at_first_join: "false"
+
+...

@@ -1,0 +1,9 @@
+name: Banking_vonfram
+version: 1
+main: Noob\Bank\Main
+api: 3.0.0
+author: Noob
+commands:
+ nganhang:
+  description: "Mở Ngân Hàng"
+  default: true

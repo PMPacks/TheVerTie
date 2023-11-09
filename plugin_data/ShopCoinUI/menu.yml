@@ -1,0 +1,16 @@
+0:
+  button: "§3§l• §eThoát §3•"
+  command: ""
+1:
+  button: "§2§l• Shop Key •"
+  command: "shopkey"
+2:
+  button: "§2§l• Mua Rank •"
+  command: "muarank"
+3:
+  button: "§2§l• Đệ Tử •"
+  command: "muadetu"
+4:
+  button: "§2§l• Mua Đá Donate •"
+  command: "shopdonate"
+

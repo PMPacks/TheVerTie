@@ -1,0 +1,18 @@
+name: Huongdan
+main: huongdanmem\huongdan\Main
+api: [3.0.0, 4.0.0]
+version: 1.0
+author: rbplugin
+depends:
+- FormAPI
+
+commands:
+  huongdan:
+   description: "Hướng dẫn cho member"
+   permission: huongdan.command
+   usage: /huongdan
+
+permissions:
+  huongdan.command:
+    default: true
+    description: "Mở menu hướng dẫn rank"

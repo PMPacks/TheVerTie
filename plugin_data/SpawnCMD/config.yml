@@ -1,0 +1,28 @@
+---
+# Send title on teleport? (on/off)
+title: "on"
+# Send message on teleport? (on/off)
+message: "on"
+# Send actionbar on teleport? (on/off)
+actionbar: "on"
+# ====================================== #
+# Title that displays on teleport. title has to be on
+titlemessage: "§aWelcome!"
+# Actionbar that displays on teleport. actionbar has to be on
+actionbarmessage: "§aYou have been teleported to spawn"
+# Message that sends on teleport. message has to be on
+sendmessage: "§7(§a!§7)§a Successfully teleported to spawn!"
+# Error message that sends when the command is executed in console
+useingame: "§cThis command can only be executed in-game"
+# Force TP to spawn when join?
+forcespawn: "false"
+# ====================================== #
+# Clear inventory on command? (on/off)
+clearinventory: "off"
+# Clear armors on command? (on/off)
+cleararmor: "off"
+# Clear all effects on command? (on/off)
+cleareffect: "off"
+# Clear only bad effects on command? (on/off) (cleareffect has to be off)
+clearbadeffect: "off"
+...

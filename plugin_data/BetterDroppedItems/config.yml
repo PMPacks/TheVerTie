@@ -1,0 +1,47 @@
+# Main configuration file for BetterDroppedItems
+# Create by Dapro718
+# Message me on Discord: Dapro#5173
+#     - If you need help.
+#     - If you have a plugin idea / feature request
+
+config-version: 1
+
+# ^^^ DO NOT TOUCH ^^^ #
+
+
+# Time until dropped items despawn (in seconds)
+despawn-time: 180
+
+# Name of the worlds where items will not be touched - CASE SENSITIVE
+disabled-worlds: []
+
+# ID of the items that will not be touched.
+disabled-items: []
+
+# ID of the items that won't get despawned
+no-despawn-items: []
+
+# Whether to clump items together.
+do-clumping: true
+
+# Clumping mode.
+# stacksize - Items will clump into the max stack size of the item.
+# unlimited - Items will clump into an unlimited amount.
+clumping-mode: "stacksize"
+
+# Whether to show the item's name dropped.
+display-item-name: true
+
+# Format of the timer added to the end of the item's name.
+# {minutes} = Minutes till despawn
+# {seconds} = Seconds till despawn
+timer-format: "§g§l({minutes}:{seconds})"
+
+
+
+# Format of the name displayed when the item is dropped.
+# {name} = Name of dropped item.
+# {count} = Amount of items in the clump
+# {timer} = Format of the timer set above.
+# The timer will NOT show on items that are added to the 'no-despawn' list.
+name-format: '• Items §a§l{name} &ax{count} {timer}'

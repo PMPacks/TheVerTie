@@ -1,0 +1,9 @@
+name: NCDRulesUI
+main: Rules\Main
+version: 0.0.1
+api: 3.0.0
+author: Nờ Cờ Dờ (NCD)
+commands:
+  luat:
+    usage: /luat
+    description: Luật Server

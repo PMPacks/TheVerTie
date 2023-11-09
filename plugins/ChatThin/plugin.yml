@@ -1,0 +1,10 @@
+---
+name: ChatThin
+main: kim\present\chatthin\ChatThin
+version: 1.4.1
+api:
+- 3.0.0
+author: PresentKim
+editor: Vbeemc
+description: Make all messages have the same font
+

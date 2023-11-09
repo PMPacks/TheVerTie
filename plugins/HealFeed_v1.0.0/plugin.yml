@@ -1,0 +1,12 @@
+name: HealFeed
+main: DafaRahestian\HealFeed\Main
+api: 3.0.0
+version: 1.0.0
+author: DafaRahestian
+commands:
+  heal:
+    description: "§b Phục Hồi Máu"
+    permission: "heal.command"
+  feed:
+    description: "§b Phục Hồi Thức Ăn"
+    permission: "feed.command"
